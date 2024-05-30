@@ -1,0 +1,19 @@
+{
+  "name": "backend_javascript",
+  "version": "1.0.0",
+  "description": "Backend javascript Concept",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "backend"
+  ],
+  "author": "Nasir Saeed",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
