@@ -13,11 +13,13 @@ const todoSchema = new mongoose.Schema(
     createdBy: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
+      required: true
     },
     subTodos: [
       {
         type: mongoose.Schema.Types.ObjectId,
         ref: "SubTodos",
+        required: true
       },
     ],
   },
